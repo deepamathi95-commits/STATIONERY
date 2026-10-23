@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Stationery – Make Every Day Creative</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css"><!-- fallback if all files are in one folder -->
+</head>
+<body>
+<div class="announce"><span>🚚 Free Shipping on orders above ₹499</span><span>🏷️ Get 10% OFF on your first order | Use code: <b>SMART10</b></span><span>💛 Your Perfect Stationery Store!</span></div>
+<header class="top">
+  <div class="row1">
+    <a href="#/" class="logo"><span class="lg">✏️</span><div><strong>Smart <b>Stationery</b></strong><small>Write · Learn · Create</small></div></a>
+    <form class="search" data-form="search" role="search"><label class="sr" for="q">Search</label><input id="q" name="q" placeholder="Search for products, categories..."><button aria-label="Search">🔍</button></form>
+    <div class="acts"><span id="auth"></span><a href="#/wishlist" class="ic">♡<span class="lbl"> Wishlist </span>(<span id="wc">0</span>)</a><a href="#/cart" class="ic">🛒<span class="lbl"> Cart</span><i id="cc">0</i></a></div>
+    <button class="burger" data-act="menu" aria-label="Menu">☰</button>
+  </div>
+  <nav id="nav"><a href="#/">Home</a><a href="#/shop">Shop</a><a href="#/categories">Categories</a><a href="#/shop?offers=1">Offers</a><a href="#/about">About Us</a><a href="#/contact">Contact</a><a href="#/track">Track Order</a></nav>
+</header>
+<main id="app"></main>
+<footer>
+  <div class="fgrid">
+    <div><h4>Smart Stationery</h4><p>Everything you need to write, learn, draw, and create.</p>
+      <p>📍 12 Raja Street, Padi, Chennai, India<br>📞 +91 9876543201<br>✉️ contactus@smartstationery.com</p></div>
+    <div><h4>Useful Links</h4><a href="#/shop">Shop All</a><a href="#/wishlist">Wishlist</a><a href="#/cart">Cart</a><a href="#/contact">Contact</a></div>
+    <div><h4>Follow Us</h4><a href="#/about">Instagram</a><a href="#/about">Facebook</a><a href="#/about">YouTube</a></div>
+  </div>
+  <p class="copy">© 2026 Smart Stationery. Demo project – authentication and payments are simulated.</p>
+</footer>
+<div id="toast" role="status"></div>
+<button id="top" data-act="top" aria-label="Back to top">↑</button>
+<script>
+// Loads the scripts from js/ (or from the same folder if you kept everything flat), in order.
+function loadJS(names, done){var i=0;(function next(){var s=document.createElement('script');s.src=names[i];s.onload=done;s.onerror=function(){if(++i<names.length)next();else console.error('Could not find '+names[0])};document.head.appendChild(s)})()}
+loadJS(['js/products.js','products.js'],function(){loadJS(['js/app.js','app.js'])});
+</script>
+</body>
+</html>

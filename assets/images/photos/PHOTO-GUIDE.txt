@@ -1,0 +1,26 @@
+Drop real product photos in this folder using these exact names (.jpg, .png or .webp). No code changes needed.
+Square or 4:3 photos on a plain/white background look best (about 600x600 px).
+If a photo is missing, the site falls back to the drawn picture, then to an emoji.
+
+p1.jpg  ->  Classmate Notebook
+p2.jpg  ->  Blue Ball Pen (Pack of 10)
+p3.jpg  ->  Gel Pen Set
+p4.jpg  ->  HB Pencil Pack
+p5.jpg  ->  Color Pencils (24 shades)
+p6.jpg  ->  Sketch Pens
+p7.jpg  ->  Geometry Box
+p8.jpg  ->  Sticky Notes
+p9.jpg  ->  Highlighter Set
+p10.jpg  ->  A4 Paper Pack (500 sheets)
+p11.jpg  ->  Art Brush Set
+p12.jpg  ->  Watercolor Kit
+p13.jpg  ->  Spiral Notebook
+p14.jpg  ->  Office File Folder
+p15.jpg  ->  Desk Organizer
+p16.jpg  ->  Correction Pen
+p17.jpg  ->  Eraser and Sharpener Set
+p18.jpg  ->  Scientific Calculator
+p19.jpg  ->  Planner Diary
+p20.jpg  ->  Craft Paper Set
+p21.jpg  ->  Gift Hamper
+p22.jpg  ->  Gratitude Journal
